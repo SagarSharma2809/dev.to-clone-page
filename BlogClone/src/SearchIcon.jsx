@@ -5,7 +5,7 @@ export default function SearchIcon() {
     return (
         <>
             <button>
-                <FontAwesomeIcon className='text-2xl hover:bg-indigo-100 hover:text-indigo-700 p-2 rounded-lg' icon={faMagnifyingGlass} />
+                <FontAwesomeIcon className='text-2xl hover:bg-indigo-100 hover:text-indigo-700 p-2 rounded-md' icon={faMagnifyingGlass} />
             </button>
         </>
     )
