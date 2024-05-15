@@ -1,12 +1,17 @@
+import Logo from "./Logo"
+import SearchIcon from "./SearchIcon";
 
-import './App.css'
 
 function App() {
+
+  //change this after hosting on vercel
+  let url = "http://localhost:5173/";
 
 
   return (
     <>
-      <div className='text-blue-300'>radhe radhe</div>
+      {/* <Logo link={url} /> */}
+      <SearchIcon />
     </>
   )
 }
