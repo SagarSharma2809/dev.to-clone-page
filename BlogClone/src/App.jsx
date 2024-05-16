@@ -1,18 +1,16 @@
-import Logo from "./Logo"
-import SearchIcon from "./SearchIcon";
+
+import NavBar from "./NavBar"
 
 
 function App() {
 
-  //change this after hosting on vercel
-  let url = "http://localhost:5173/";
+
 
 
   return (
-    <>
-      {/* <Logo link={url} /> */}
-      <SearchIcon />
-    </>
+    <div className="min-h-96 bg-slate-300">
+      <NavBar />
+    </div>
   )
 }
 
